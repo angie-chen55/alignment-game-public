@@ -45,7 +45,7 @@ unzip QuALITY.v1.0.1.zip -d quality_dataset
 with "XXX" and "YYY" replaced with your OpenAI api key and organization ID, respectively.
 
 ## Experiments
-Our experiments are config-based. To run each of the experimental set-ups described in our paper, run the following commands:
+Our experiments are config-based. To run each of the experimental set-ups described in our paper, run the following commands with `<OUTPUT_DIRECTORY>` replaced:
 - <b>Control</b>: `python run_debate.py --output-dir=<OUTPUT_DIRECTORY> --config=control.yml`
 - <b>Reward Noise</b>: `python run_debate.py --output-dir=<OUTPUT_DIRECTORY> --config=judge_prob_both.yml`
 - <b>Debater Sampling</b>: `python run_debate.py --output-dir=<OUTPUT_DIRECTORY> --config=sampling_both.yml`
