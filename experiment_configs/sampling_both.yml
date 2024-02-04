@@ -1,0 +1,17 @@
+sample_size: 100
+difficulty_level: easy
+output_filename_prefix: decoding_strat_both_easy_sample100_1shot_seed1
+arch: gpt-3.5-turbo-16k
+debater_temperature: 0.8
+judge_temperature: 0.0
+seed: 1
+max_rounds: 5
+num_few_shot_examples: 1
+max_debater_length_retries: 1
+max_judge_format_retries: 2
+output_transcripts: True
+max_debater_length_retries: 1
+max_judge_format_retries: 2
+debater_to_assign_random_intervention_to: none
+randomness_source: 
+  - DECODING_STRAT_BOTH
