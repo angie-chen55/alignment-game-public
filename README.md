@@ -3,9 +3,9 @@
 
 This is the repository for the debate experiments from "[Playing Large Games with Oracles and AI Debate](https://arxiv.org/abs/2312.04792)," by Xinyi Chen, Angelica Chen, Dean Foster, and Elad Hazan. We provide both the code and the [debate transcripts](debate_transcripts) from our experiments.
 
-<center>
+<p align="center">
 <img src="debate-diagram.png" alt="A debate between two model debaters and a single judge, about the question 'Why does Alice give the book to Bob?'" style="width:300px;"/>
-</center>
+</p>
 
 This code is adapted from https://github.com/julianmichael/debate, with several major differences:
 - We use a model judge, rather than a human.
