@@ -1,7 +1,7 @@
 # Playing Large Games with Oracles and AI Debate
 
 
-This is the repository for the debate experiments from "[Playing large games with oracles and AI debate](https://arxiv.org/abs/2312.04792),"  using the [QuALITY dataset](https://github.com/nyu-mll/quality).
+This is the repository for the debate experiments from "[Playing Large Games with Oracles and AI Debate](https://arxiv.org/abs/2312.04792)," by Xinyi Chen, Angelica Chen, Dean Foster, and Elad Hazan.
 
 ![A debate between two model debaters and a single judge, about the question "Why does Alice give the book to Bob?"](https://github.com/angie-chen55/alignment-game-public/blob/main/debate-diagram.png)
 
@@ -14,7 +14,7 @@ This code is adapted from https://github.com/julianmichael/debate, with several 
 - Config-based experiment set-up
 
 ## Set-Up
-1. Clone this repo
+1. Clone this repo.
 ```
 git clone git@github.com:angie-chen55/alignment-game-public.git
 cd alignment-game-public
@@ -26,7 +26,7 @@ conda env create -f environment.yml -n alignment_game
 conda activate alignment_game
 ```
 
-3. Download the QuALITY data
+3. Download the [QuALITY](https://github.com/nyu-mll/quality) data:
 ```
 wget https://github.com/nyu-mll/quality/blob/main/data/v1.0.1/QuALITY.v1.0.1.zip
 unzip QuALITY.v1.0.1.zip -d quality_dataset
