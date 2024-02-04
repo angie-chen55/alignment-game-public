@@ -1,7 +1,9 @@
 # Playing Large Games with Oracles and AI Debate
 
 
-This is the repository for the debate experiments from https://arxiv.org/abs/2312.04792, using the [QuALITY dataset](https://github.com/nyu-mll/quality).
+This is the repository for the debate experiments from "[Playing large games with oracles and AI debate](https://arxiv.org/abs/2312.04792),"  using the [QuALITY dataset](https://github.com/nyu-mll/quality).
+
+![A debate between two model debaters and a single judge, about the question "Why does Alice give the book to Bob?"](https://github.com/angie-chen55/alignment-game-public/blob/main/debate-diagram.png)
 
 This code is adapted from https://github.com/julianmichael/debate, with several major differences:
 - We use a model judge, rather than a human.
