@@ -1,4 +1,5 @@
-# alignment-game
+# Playing Large Games with Oracles and AI Debate
+
 
 This is the repository for the debate experiments from https://arxiv.org/abs/2312.04792, using the [QuALITY dataset](https://github.com/nyu-mll/quality).
 
